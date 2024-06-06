@@ -1,0 +1,29 @@
+Instruction
+
+There are different files in a directory having employee data. All the files have some data but are of different file formats. How many files do you see which has the term "employee" in the file name, print the number? Among the various files, identify and open the json file. Read the json file and parse the data. Print all the details of the employee whose id is 8.
+
+Assuming that the data will be converted into a SQL table eventually, identify & store the headers (column names) in a separate list. Create a SQLite database named "data.db".
+
+Create a table called as "employee" within the data.db. Populate the data received from json into a nested list, and put this across into the employee table.
+
+Read this sql data back into pandas and add a column named "bonus percent", a bonus of 15% will be awarded to all the vaccinated employees and 5% to the non-vaccinated employees. Export this final dataframe into an excel.
+ 
+input file:        employee.json 
+                        
+output files:    data.db
+                      employee.xlsx
+
+Important Steps
+Reading data from json                                                       
+Storing column names                                                        
+Establishing sqlite connection                                             
+Table creation success                                                        
+Converting data into a nested list                                      
+Import data into pandas                                                     
+Adding bonus for vaccinated employees                           
+Exporting custom data into excel   
+
+Things to be kept in Mind:                            
+Overall efficiency of the code 
+Appropriate object names 
+Comments
